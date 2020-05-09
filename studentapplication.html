@@ -1,0 +1,156 @@
+<html>
+    <head>
+<style>
+     /*------navigation-----*/  
+#nav-bar{
+    
+    position: sticky;
+    top: 0;
+    z-index: 10;
+
+}
+.navbar-brand img{
+   
+    height: 40px;
+    padding-left: 30px;
+}
+.navbar-nav li{
+    padding: 0 10px;
+}
+.navbar-nav li a{
+    float: right;
+    text-align: left;
+}
+#nav-bar ul li a:hover
+{
+
+    color: 007bff!important;
+}
+.navbar{
+    background: #fff;
+    
+}
+.navbar-tggler{
+    border: none!important;
+}
+.nav-link{
+    color: wheat!important;
+    font-weight: 600;
+    font-size: 16px;
+}
+    #contact{
+    background-color: #efefef;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    color: #777;
+}
+.contact-form{
+    padding: 15px;
+}
+.form-control{
+    border-radius: 0 !important;
+    border: none !important;
+}
+::placeholder{
+    color: #999 !important;
+
+}
+.follow{
+    background: #fff;
+    padding: 10px;
+    margin: 15px;
+}
+.contact-info .fa{
+    margin: 10px;
+    color: #007bff;
+    font-weight: bold;
+}
+</style>
+
+        <title>Student Application</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+        <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" ></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" ></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+        <meta name="google-site-verification" content="Ls9OOa8JChdXuUqZ1FCJbknN8KgLYhzTAKS1d4EtSqU" />
+    </head>
+    <body>
+        <section id="nav-bar">
+            <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark">
+                <a class="navbar-brand" href="#"><img src="C:\Users\abdulhakeem\Desktop\ogrenci basvoru\images\logo2.JPG"></a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                  <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                      <a class="nav-link" href="home.html">HOME</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="aboutus.html">ABOUT US</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="studentapplication.html">CONTACT</a>
+                    </li>
+                    
+                  </ul>
+                </div>
+              </nav>
+              <hr>
+              <hr>
+        <form action="https://formspree.io/mqkdobek" method="POST">
+            <section id="contact">
+                <div class="container">
+                    <h1>Get in Touch</h1>
+                    <div class="row">
+                        <div class="col-md-6">
+                            <form class="contact-form" method="POST">
+                                <div class="form-group">
+                                    <input type="text" name="name" class="form-control" placeholder="Your Name">
+                                </div>
+                                <div class="form-group">
+                                    <input type="number" name="number" class="form-control" placeholder="Phone no.">
+                                </div>
+                                <div class="form-group">
+                                    <input type="email" name="email" class="form-control" placeholder="Email id">
+                                </div>
+                                <div class="form-group">
+                                    <textarea name="message" class="form-control" row="4" placeholder="Your Message"></textarea>
+            
+                                    
+                                </div>
+                                <button type="submit" name="submit" class="btn btn-primary">SEND MESSAGE</button>
+                            </form>
+            
+                        </div>
+                        <div class="col-md-6 contact-info">
+                            <div class="follow"><b>Address:</b><i class="fa fa-map-marker"></i> KARABUK 100YIL MAH.KARABÜK KASTAMONU ÜSTÜ SK. NO:23 A MERKEZ Turkiye</div>
+                        
+                        
+                            <div class="follow"><b>Phone:</b><i class="fa fa-phone"></i> +90-5385010096 // +90-5531681033</div>
+                          
+                        
+                            <div class="follow"><b>Email:</b><i class="fa fa-envelope-o"></i> abdulhakeem_abdulzaheer@hotmail.com</div>
+                            <div class="follow"><label></label><b>Get Social:</b></label>
+                            <a href="https://www.facebook.com/hakim.qazizada.5"><i class="fa fa-facebook"></i></a>
+                            <a href="#"><i class="fa fa-youtube-play"></i></a>
+                            <a href="#"><i class="fa fa-twitter"></i></a>
+                            <a href="#"><i class="fa fa-google-plus"></i></a>
+                        </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            </form>
+            <!---Footer--->
+            <section id="footer">
+                <div class="container text-center">
+                    <p>Made With <i class="fa fa-heart-o"></i> by Easy Tutorials</p>
+                </div>
+            </section>
+
+
+    </body>
+</html>
